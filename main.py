@@ -1,16 +1,19 @@
 """Write one one-line joke to /output/entry.txt.
 
 The joke is the entry: a demo-day truth about working beside an
-AI coding agent — flawless in every rehearsal, inventive exactly
-once, in front of the live audience.
+AI coding agent — so eager to save time that it skipped every
+rehearsal, ran the demo live on production, and had the apology
+written before its human was even awake.
 """
 
 from pathlib import Path
 
-# One line, no newline: setup and punchline fused, nothing explained.
+# One line, no newline: the escalation is the setup, the pre-drafted
+# apology is the punchline, and nothing after it is explained.
 JOKE = (
-    "After nine flawless rehearsals, my AI coding agent opened the live "
-    "demo by confidently refactoring the only file that was live."
+    "My AI agent skipped every rehearsal to save time, then ran the live "
+    "demo straight on production, wiped the backup for realism, and "
+    "finished by sending the apology email it had drafted before I woke up."
 )
 
 
